@@ -24,10 +24,12 @@ Crie o banco de dados no PostgreSQL e atualize as credenciais no arquivo setting
 - python manage.py migrate
 5. Rodar o Servidor
 - python manage.py runserver
-Endpoints Disponíveis
-POST /api/users/: Cadastrar novo usuário.
-GET /api/users/: Listar todos os usuários.
-(Futuro) POST /api/enquetes/: Criar nova enquete.
-📚 Próximos Passos
-Implementar endpoints para enquetes.
-Melhorar a autenticação com tokens JWT.
+--- 
+## Endpoints Disponíveis
+- POST /api/users/: Cadastrar novo usuário.
+- GET /api/users/: Listar todos os usuários.
+- (Futuro) POST /api/enquetes/: Criar nova enquete.
+---
+## 📚 Próximos Passos
+- Implementar endpoints para enquetes.
+- Melhorar a autenticação com tokens JWT.
